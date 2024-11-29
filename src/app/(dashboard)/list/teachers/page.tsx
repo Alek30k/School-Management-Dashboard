@@ -1,5 +1,6 @@
 // import FormModal from "@/components/FormModal";
 import Pagination from "@/components/Pagination";
+import Table from "@/components/Table";
 // import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
 import { role, teachersData } from "@/lib/data";
@@ -119,7 +120,7 @@ const TeacherListPage = () => {
         </div>
       </div>
       {/* LIST */}
-      {/* <Table columns={columns} renderRow={renderRow} data={teachersData} />
+      <Table columns={columns} />
       {/* PAGINATION */}
       <Pagination />
     </div>
