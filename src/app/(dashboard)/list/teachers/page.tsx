@@ -61,7 +61,7 @@ const TeacherListPage = () => {
       key={item.id}
       className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-alePurpleLight"
     >
-      {/* <td className="flex items-center gap-4 p-4">
+      <td className="flex items-center gap-4 p-4">
         <Image
           src={item.photo}
           alt=""
@@ -76,7 +76,7 @@ const TeacherListPage = () => {
       </td>
       <td className="hidden md:table-cell">{item.teacherId}</td>
       <td className="hidden md:table-cell">{item.subjects.join(",")}</td>
-      <td className="hidden md:table-cell">{item.classes.join(",")}</td> */}
+      <td className="hidden md:table-cell">{item.classes.join(",")}</td>
       <td className="hidden md:table-cell">{item.phone}</td>
       <td className="hidden md:table-cell">{item.address}</td>
       <td>
