@@ -62,7 +62,7 @@ const TeacherListPage = () => {
       className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-alePurpleLight"
     >
       <td className="flex items-center gap-4 p-4">
-        {/* <Image
+        <Image
           src={item.photo}
           alt=""
           width={40}
@@ -124,4 +124,4 @@ const TeacherListPage = () => {
   );
 };
 
-export default TeacherListPage; */}
+export default TeacherListPage;
